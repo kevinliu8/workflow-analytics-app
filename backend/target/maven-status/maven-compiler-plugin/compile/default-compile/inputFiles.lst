@@ -1,0 +1,10 @@
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/WorkflowAnalyticsApplication.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/controller/WorkflowController.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/metrics/MetricsSummary.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/metrics/MetricsTracker.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/model/Status.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/model/WorkflowEvent.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/queue/EventQueue.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/service/EventProcessor.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/service/IngestService.java
+/Users/kevinliu/Developer/workflow-analytics-lab/backend/src/main/java/com/workflow/analytics/store/EventStore.java

@@ -1,0 +1,12 @@
+com/workflow/analytics/service/EventProcessor.class
+com/workflow/analytics/metrics/MetricsTracker.class
+com/workflow/analytics/model/WorkflowEvent.class
+com/workflow/analytics/service/EventProcessor$1.class
+com/workflow/analytics/WorkflowAnalyticsApplication.class
+com/workflow/analytics/metrics/MetricsSummary.class
+com/workflow/analytics/service/IngestService.class
+com/workflow/analytics/model/Status.class
+com/workflow/analytics/store/EventStore.class
+com/workflow/analytics/service/EventProcessor$WorkerThreadFactory.class
+com/workflow/analytics/controller/WorkflowController.class
+com/workflow/analytics/queue/EventQueue.class
