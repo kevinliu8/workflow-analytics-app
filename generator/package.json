@@ -1,0 +1,10 @@
+{
+  "name": "workflow-event-generator",
+  "version": "1.0.0",
+  "description": "Simple CLI to generate workflow analytics events",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
