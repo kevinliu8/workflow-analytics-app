@@ -57,8 +57,8 @@ function buildEvent() {
   return {
     processInstanceId: randomUUID(),
     step: randomChoice(STEPS),
-    status: Math.random() < FAIL_RATE ? 'failed' : 'completed',
-    eventTime: new Date().toISOString(),
+    status: Math.random() < FAIL_RATE ? 'FAIL' : 'SUCCESS',
+    eventTime: Date.now(),
     durationMs: durationMs(),
   };
 }
@@ -96,7 +96,7 @@ async function sendBatchWithRetry(batch) {
   for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
     attemptedThisSec += 1;
     try {
-      const res = await postJson(TARGET_URL, { events: batch });
+      const res = await postJson(TARGET_URL, batch);
       if (res.statusCode >= 200 && res.statusCode < 300) {
         successThisSec += 1;
         return true;
